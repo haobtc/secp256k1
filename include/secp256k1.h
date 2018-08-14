@@ -498,7 +498,9 @@ SECP256K1_API int secp256k1_ecdsa_sign(
     const unsigned char *msg32,
     const unsigned char *seckey,
     secp256k1_nonce_function noncefp,
-    const void *ndata
+    const void *ndata,
+    unsigned int count,
+    int *recid
 ) SECP256K1_ARG_NONNULL(1) SECP256K1_ARG_NONNULL(2) SECP256K1_ARG_NONNULL(3) SECP256K1_ARG_NONNULL(4);
 
 /** Verify an ECDSA secret key.
