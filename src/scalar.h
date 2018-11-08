@@ -10,7 +10,7 @@
 #include "num.h"
 
 #if defined HAVE_CONFIG_H
-#include "libsecp256k1-config.h"
+#include "libsecp256k1_eos-config.h"
 #endif
 
 #if defined(EXHAUSTIVE_TEST_ORDER)
